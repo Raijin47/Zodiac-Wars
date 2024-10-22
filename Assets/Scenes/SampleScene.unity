@@ -745,6 +745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1567,6 +1568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1594,7 +1596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1671,6 +1673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1856,7 +1859,7 @@ AudioSource:
   m_GameObject: {fileID: 100205488}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6920197153822367019, guid: ea853cdf0a0ac90438f4ee0f95c0dc81, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2129,6 +2132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2470,6 +2474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2478,7 +2483,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 3bbc3c68fa57f6c40bcca9fb97e94e4f, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2497,7 +2502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -3269,12 +3274,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
+        m_MethodName: SetActive
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3286,7 +3292,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1980602416}
         m_TargetAssemblyTypeName: Game, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: SetActive
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4669,6 +4675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -5378,6 +5385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -5598,7 +5606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &326788508
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5936,7 +5944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 3de440c5a7c7b3d43a6c726001248629, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -6450,6 +6458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6554,6 +6563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6657,6 +6667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -7375,7 +7386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 9d0abc728127efd4f996bb7b3fc29e70, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -7847,6 +7858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -8283,15 +8295,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 3bc79ad76edcfbd44b0efa410e1723c6, type: 3}
+          m_ObjectArgument: {fileID: 1769294130}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8670,6 +8683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -8785,6 +8799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -8793,7 +8808,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 3c3e7c73b25c0ad439823ba708081675, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8812,7 +8827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -8887,7 +8902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 3de440c5a7c7b3d43a6c726001248629, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -9461,6 +9476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -9469,7 +9485,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: d487c67d6462dc947bb5dec345d7e451, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9488,7 +9504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -10103,6 +10119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -10320,6 +10337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -10818,6 +10836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -10965,6 +10984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -11563,8 +11583,9 @@ GameObject:
   - component: {fileID: 650883599}
   - component: {fileID: 650883598}
   - component: {fileID: 650883597}
+  - component: {fileID: 650883600}
   m_Layer: 5
-  m_Name: Image Daily
+  m_Name: Button Daily
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11603,6 +11624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 0
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -11656,6 +11678,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650883595}
   m_CullTransparentMesh: 1
+--- !u!114 &650883600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650883595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325c01f455a0c47478215b5c52b44b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnRewardClaimed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1980602416}
+        m_TargetAssemblyTypeName: Game, Assembly-CSharp
+        m_MethodName: AddMoney
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 40
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _timeUntilReward: 86400
+  _textTime: {fileID: 804540890}
+  _button: {fileID: 650883597}
 --- !u!1 &654925690
 GameObject:
   m_ObjectHideFlags: 0
@@ -11675,7 +11727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &654925691
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12733,15 +12785,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 01fb3a0aa4d3a6a43896d0a51cd9a922, type: 3}
+          m_ObjectArgument: {fileID: 2030756360}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -13310,6 +13363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -13318,7 +13372,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: d14991b8e3dcb5043ba8628f74e3faa2, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -13337,7 +13391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -13641,6 +13695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -13894,6 +13949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -14825,6 +14881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16053,6 +16110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16381,6 +16439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16389,7 +16448,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 3447174f50382924b84bcb1ee0d33419, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -16408,7 +16467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -16816,6 +16875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16931,6 +16991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -17230,6 +17291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -19241,6 +19303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -19249,7 +19312,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 524776f9bd063644a98237bf88df5eec, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -19268,7 +19331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -20829,15 +20892,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 27b2c900f22f560429617ef0f29f2a52, type: 3}
+          m_ObjectArgument: {fileID: 692466226}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -21467,6 +21531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -21571,6 +21636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -22103,6 +22169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -22111,7 +22178,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 750b4d9943f1a384096790785ffe1547, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -22130,7 +22197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -22312,6 +22379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -23093,6 +23161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -23586,6 +23655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -23594,7 +23664,7 @@ MonoBehaviour:
         m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: f385bb55f18ad0440b8195140af3d083, type: 3}
+          m_ObjectArgument: {fileID: 21300000, guid: 8fcfc9b6e9889fb48af800167b6d9438, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -23613,7 +23683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0b3a83a8f4ebaa14b8132e8f7b2a9db5, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -24067,6 +24137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -24246,6 +24317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -25186,15 +25258,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2013722604}
+          m_ObjectArgument: {fileID: 21300000, guid: 56114766e4131ee47a8cbfd5671eb061, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -25395,15 +25468,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 58c45eda210ae044d989e3c9e9201a09, type: 3}
+          m_ObjectArgument: {fileID: 1856105587}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -25670,6 +25744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -25768,6 +25843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -25872,15 +25948,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 932751591}
+          m_ObjectArgument: {fileID: 21300000, guid: d04937c91081b1e44aa3a64b45d7e5da, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -26265,6 +26342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -27053,7 +27131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 3de440c5a7c7b3d43a6c726001248629, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -27460,15 +27538,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 933430838}
+          m_ObjectArgument: {fileID: 21300000, guid: 321b785782b0e524b82b2f3a80de5ae0, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -28120,15 +28199,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1299634559}
+          m_ObjectArgument: {fileID: 21300000, guid: e4cd0acea8375e04f86294ef7af00aa9, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -29958,15 +30038,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1359467588}
+          m_ObjectArgument: {fileID: 21300000, guid: 0529215915dc3ae43b4504a56579b79b, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -30892,15 +30973,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 79039cc43eaf6fe4684157d76d2e981c, type: 3}
+          m_ObjectArgument: {fileID: 1222396032}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -31137,7 +31219,7 @@ GameObject:
   - component: {fileID: 1841787613}
   - component: {fileID: 1841787614}
   m_Layer: 0
-  m_Name: Audio Source BG
+  m_Name: Background Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31167,7 +31249,7 @@ AudioSource:
   m_GameObject: {fileID: 1841787612}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1005587200451784734, guid: ea853cdf0a0ac90438f4ee0f95c0dc81, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -31465,6 +31547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -32584,15 +32667,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 42581979}
+          m_ObjectArgument: {fileID: 21300000, guid: 1282544a79e363744ac710dfcfcfa290, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -32844,6 +32928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -32921,6 +33006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -33168,6 +33254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -33221,15 +33308,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: be775744abfaa104dbfbf922134be9f2, type: 3}
+          m_ObjectArgument: {fileID: 2120010951}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -34084,9 +34172,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 650883600}
+        m_TargetAssemblyTypeName: TimeReward, Assembly-CSharp
+        m_MethodName: TakeReward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1889658785}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -34243,15 +34344,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1109724431}
+          m_ObjectArgument: {fileID: 21300000, guid: 1ca32eaf5e5c5e84aaf40bf2d85bcfb3, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -34465,6 +34567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -35133,15 +35236,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 217836263}
+          m_ObjectArgument: {fileID: 21300000, guid: 4d0619aee88d1444fb6c380f35debe4b, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -35446,15 +35550,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2126332858}
+          m_ObjectArgument: {fileID: 21300000, guid: cef591a936d805747892adca20310ab2, type: 3}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -35932,15 +36037,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ee28aa1b2c5c642824531f0425a091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interactable: 1
   OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: df8b7d98d4ca41141807dfb66b428080, type: 3}
+          m_ObjectArgument: {fileID: 2125934981}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

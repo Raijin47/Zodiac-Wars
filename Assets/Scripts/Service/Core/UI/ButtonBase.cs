@@ -9,6 +9,9 @@ public class ButtonBase : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     [System.Serializable]
     public class UIButtonEvent : UnityEvent<PointerEventData.InputButton> { }
     #endregion
+    public bool Interactable = true;
+
+    [Space(10)]
     public UnityEvent OnClick;
 
     private RectTransform _rectTransform;
@@ -25,6 +28,8 @@ public class ButtonBase : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     void IPointerDownHandler.OnPointerDown(PointerEventData eventData)
     {
+        if (!Interactable) return;
+        
         if (_resizeCoroutine != null)      
             StopCoroutine(_resizeCoroutine);
 
@@ -33,6 +38,8 @@ public class ButtonBase : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     void IPointerUpHandler.OnPointerUp(PointerEventData eventData)
     {
+        if (!Interactable) return;
+
         if (_resizeCoroutine != null)
             StopCoroutine(_resizeCoroutine);
 
@@ -41,6 +48,8 @@ public class ButtonBase : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
     {
+        if (!Interactable) return;
+
         OnClick?.Invoke();
         Game.Audio.OnClick();
     }

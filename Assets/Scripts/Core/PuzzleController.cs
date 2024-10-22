@@ -12,19 +12,20 @@ public class PuzzleController : MonoBehaviour
     [SerializeField] private ScrollRect _scrollRect;
     private readonly List<GameObject> PuzzleList = new();
 
+    [SerializeField] private RectTransform _shadow;
+    public RectTransform Shadow => _shadow;
 
-
+    [SerializeField] private Image _image;
     private Sprite _sprite;
 
-    [SerializeField] private UnityEngine.UI.Image _image;
     public Sprite Sprite 
     { 
         private get => _sprite;
         set 
         {
+            _image.sprite = value;
             _sprite = value;
             Game.Action.SendStartGame();
-            _image.sprite = value;
         } 
     }
 
@@ -78,19 +79,6 @@ public class PuzzleController : MonoBehaviour
         foreach(PuzzleElement puzzle in _puzzleElements)        
             if (!puzzle.IsComplated) return false;
         
-
         return true;
-    }
-
-    public bool Init;
-    private void OnValidate()
-    {
-        if(Init)
-        {
-            for (int i = 0; i < _targets.Length; i++)           
-                _puzzleElements[i].Target = _targets[i];
-            
-            Init = false;
-        }
     }
 }

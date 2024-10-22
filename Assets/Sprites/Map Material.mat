@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ENABLEUVDISTORT_ON
+  - _ENABLEUVROTATE_ON
   - _SHADERFADING_NONE
   - _SHADERSPACE_UV
   - _TEXTURELAYER1SHEETTOGGLE_ON
@@ -262,8 +262,8 @@ Material:
     - _EnableStrongTint: 0
     - _EnableTextureLayer1: 0
     - _EnableTextureLayer2: 0
-    - _EnableUVDistort: 1
-    - _EnableUVRotate: 0
+    - _EnableUVDistort: 0
+    - _EnableUVRotate: 1
     - _EnableUVScale: 0
     - _EnableUVScroll: 0
     - _EnableVibrate: 0
@@ -288,7 +288,7 @@ Material:
     - _FlameRadius: 0.2
     - _FlameSmooth: 2
     - _FrozenContrast: 2
-    - _FrozenFade: 1
+    - _FrozenFade: 0.44
     - _FrozenHighlightContrast: 2
     - _FrozenHighlightDensity: 1
     - _FrozenSnowContrast: 1
@@ -316,7 +316,7 @@ Material:
     - _HologramDistortionOffset: 0.5
     - _HologramDistortionScale: 10
     - _HologramDistortionSpeed: 2
-    - _HologramFade: 1
+    - _HologramFade: 0.17
     - _HologramLineFrequency: 500
     - _HologramLineGap: 3
     - _HologramLineSpeed: 0.01
@@ -398,14 +398,14 @@ Material:
     - _ShiftingSaturation: 0.8
     - _ShiftingSpeed: 0.5
     - _ShineContrast: 2
-    - _ShineFade: 0
+    - _ShineFade: 1
     - _ShineFrequency: 0.3
     - _ShineMaskToggle: 0
-    - _ShineRotation: 45
+    - _ShineRotation: 30
     - _ShineSaturation: 0.5
     - _ShineSmooth: 1
     - _ShineSpeed: 5
-    - _ShineWidth: 0.1
+    - _ShineWidth: 0.01
     - _SineGlowContrast: 1
     - _SineGlowFade: 1
     - _SineGlowFrequency: 4
@@ -413,7 +413,7 @@ Material:
     - _SineGlowMax: 1
     - _SineGlowMin: 0
     - _SineMoveFade: 1
-    - _SineRotateAngle: 15
+    - _SineRotateAngle: 360
     - _SineRotateFade: 1
     - _SineRotateFrequency: 1
     - _SineScaleFrequency: 2
@@ -489,7 +489,7 @@ Material:
     - _ToggleUnscaledTime: 0
     - _UVDistortFade: 1
     - _UVDistortMaskToggle: 0
-    - _UVRotateSpeed: 1
+    - _UVRotateSpeed: 0.01
     - _UVSec: 0
     - _UseUIAlphaClip: 0
     - _VertexTintFirst: 0
@@ -648,10 +648,10 @@ Material:
     - _TextureLayer2Offset: {r: 0, g: 0, b: 0, a: 0}
     - _TextureLayer2Scale: {r: 1, g: 1, b: 0, a: 0}
     - _TextureLayer2ScrollSpeed: {r: 0, g: 1, b: 0, a: 0}
-    - _UVDistortFrom: {r: -0.02, g: -0.02, b: 0, a: 0}
+    - _UVDistortFrom: {r: -0.04, g: -0.04, b: 0, a: 0}
     - _UVDistortNoiseScale: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _UVDistortSpeed: {r: 1, g: 1, b: 0, a: 0}
-    - _UVDistortTo: {r: 0.02, g: 0.02, b: 0, a: 0}
+    - _UVDistortTo: {r: 0.04, g: 0.04, b: 0, a: 0}
     - _UVRotatePivot: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _UVScalePivot: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _UVScaleScale: {r: 1, g: 1, b: 0, a: 0}

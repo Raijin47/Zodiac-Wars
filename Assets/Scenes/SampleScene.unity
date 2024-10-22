@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 18
-  _price: 0
+  _price: 60
   _priceText: {fileID: 1178243773}
   _enable: {fileID: 271861806}
   _disable: {fileID: 1931685518}
@@ -4396,7 +4396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 3
-  _price: 0
+  _price: 90
   _priceText: {fileID: 205138113}
   _enable: {fileID: 1396827555}
   _disable: {fileID: 1452582078}
@@ -8301,10 +8301,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1769294130}
+          m_ObjectArgument: {fileID: 21300000, guid: 3bc79ad76edcfbd44b0efa410e1723c6, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -11298,7 +11298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 5
-  _price: 0
+  _price: 80
   _priceText: {fileID: 2126678703}
   _enable: {fileID: 1335555756}
   _disable: {fileID: 92902343}
@@ -12676,7 +12676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 4
-  _price: 0
+  _price: 80
   _priceText: {fileID: 1293061417}
   _enable: {fileID: 509603114}
   _disable: {fileID: 1284217361}
@@ -12731,7 +12731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 23
-  _price: 0
+  _price: 80
   _priceText: {fileID: 599284212}
   _enable: {fileID: 1221629201}
   _disable: {fileID: 965091337}
@@ -12791,10 +12791,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2030756360}
+          m_ObjectArgument: {fileID: 21300000, guid: 01fb3a0aa4d3a6a43896d0a51cd9a922, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -15623,7 +15623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 14
-  _price: 0
+  _price: 80
   _priceText: {fileID: 621308198}
   _enable: {fileID: 1371515583}
   _disable: {fileID: 1546552543}
@@ -15678,7 +15678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 12
-  _price: 0
+  _price: 80
   _priceText: {fileID: 1717481673}
   _enable: {fileID: 619205350}
   _disable: {fileID: 1622475283}
@@ -18434,7 +18434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 10
-  _price: 0
+  _price: 60
   _priceText: {fileID: 1051688781}
   _enable: {fileID: 120942471}
   _disable: {fileID: 2013993511}
@@ -20104,7 +20104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 2
-  _price: 0
+  _price: 60
   _priceText: {fileID: 1783000883}
   _enable: {fileID: 535981511}
   _disable: {fileID: 579138349}
@@ -20898,10 +20898,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 692466226}
+          m_ObjectArgument: {fileID: 21300000, guid: 27b2c900f22f560429617ef0f29f2a52, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -20997,7 +20997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 19
-  _price: 0
+  _price: 90
   _priceText: {fileID: 1989831097}
   _enable: {fileID: 1831748541}
   _disable: {fileID: 600215486}
@@ -21919,7 +21919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 16
-  _price: 0
+  _price: 90
   _priceText: {fileID: 1908161090}
   _enable: {fileID: 1560843942}
   _disable: {fileID: 1649228755}
@@ -22739,7 +22739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 15
-  _price: 0
+  _price: 80
   _priceText: {fileID: 1631325259}
   _enable: {fileID: 1347994692}
   _disable: {fileID: 1748650817}
@@ -25007,7 +25007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 0
-  _price: 0
+  _price: 90
   _priceText: {fileID: 135986996}
   _enable: {fileID: 131070623}
   _disable: {fileID: 1525985287}
@@ -25264,10 +25264,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 56114766e4131ee47a8cbfd5671eb061, type: 3}
+          m_ObjectArgument: {fileID: 2013722604}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -25474,10 +25474,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1856105587}
+          m_ObjectArgument: {fileID: 21300000, guid: 58c45eda210ae044d989e3c9e9201a09, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -25954,10 +25954,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: d04937c91081b1e44aa3a64b45d7e5da, type: 3}
+          m_ObjectArgument: {fileID: 932751591}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -27002,7 +27002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 7
-  _price: 0
+  _price: 80
   _priceText: {fileID: 728116133}
   _enable: {fileID: 1148797080}
   _disable: {fileID: 391006288}
@@ -27544,10 +27544,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 321b785782b0e524b82b2f3a80de5ae0, type: 3}
+          m_ObjectArgument: {fileID: 933430838}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -28205,10 +28205,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: e4cd0acea8375e04f86294ef7af00aa9, type: 3}
+          m_ObjectArgument: {fileID: 1299634559}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -29624,7 +29624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 6
-  _price: 0
+  _price: 80
   _priceText: {fileID: 1577208094}
   _enable: {fileID: 736786056}
   _disable: {fileID: 1286668581}
@@ -30044,10 +30044,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 0529215915dc3ae43b4504a56579b79b, type: 3}
+          m_ObjectArgument: {fileID: 1359467588}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -30218,7 +30218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 22
-  _price: 0
+  _price: 80
   _priceText: {fileID: 1111937483}
   _enable: {fileID: 491326409}
   _disable: {fileID: 381540545}
@@ -30707,7 +30707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 1
-  _price: 0
+  _price: 60
   _priceText: {fileID: 1113756826}
   _enable: {fileID: 973671004}
   _disable: {fileID: 766681513}
@@ -30979,10 +30979,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1222396032}
+          m_ObjectArgument: {fileID: 21300000, guid: 79039cc43eaf6fe4684157d76d2e981c, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -32673,10 +32673,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 1282544a79e363744ac710dfcfcfa290, type: 3}
+          m_ObjectArgument: {fileID: 42581979}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -33314,10 +33314,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2120010951}
+          m_ObjectArgument: {fileID: 21300000, guid: be775744abfaa104dbfbf922134be9f2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -34289,7 +34289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 11
-  _price: 0
+  _price: 90
   _priceText: {fileID: 281692939}
   _enable: {fileID: 987128250}
   _disable: {fileID: 1508798172}
@@ -34350,10 +34350,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 1ca32eaf5e5c5e84aaf40bf2d85bcfb3, type: 3}
+          m_ObjectArgument: {fileID: 1109724431}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -34778,7 +34778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 21
-  _price: 0
+  _price: 80
   _priceText: {fileID: 175846155}
   _enable: {fileID: 708472627}
   _disable: {fileID: 474384578}
@@ -35242,10 +35242,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: 4d0619aee88d1444fb6c380f35debe4b, type: 3}
+          m_ObjectArgument: {fileID: 217836263}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -35556,10 +35556,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647282}
         m_TargetAssemblyTypeName: PanelBuyStage, Assembly-CSharp
-        m_MethodName: set_Sprite
+        m_MethodName: set_Stage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 21300000, guid: cef591a936d805747892adca20310ab2, type: 3}
+          m_ObjectArgument: {fileID: 2126332858}
           m_ObjectArgumentAssemblyTypeName: ButtonStage, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -35983,7 +35983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 20
-  _price: 0
+  _price: 90
   _priceText: {fileID: 1169813767}
   _enable: {fileID: 1961310853}
   _disable: {fileID: 314016306}
@@ -36043,10 +36043,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1220647281}
         m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
-        m_MethodName: set_Stage
+        m_MethodName: set_Sprite
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2125934981}
+          m_ObjectArgument: {fileID: 21300000, guid: df8b7d98d4ca41141807dfb66b428080, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -36142,7 +36142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 13
-  _price: 0
+  _price: 80
   _priceText: {fileID: 198273063}
   _enable: {fileID: 2124934706}
   _disable: {fileID: 1438292517}
@@ -36197,7 +36197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: 17
-  _price: 0
+  _price: 60
   _priceText: {fileID: 22576158}
   _enable: {fileID: 1011314864}
   _disable: {fileID: 2091333612}

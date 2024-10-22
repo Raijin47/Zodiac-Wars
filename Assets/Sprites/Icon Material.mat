@@ -164,7 +164,7 @@ Material:
     - _BurnFade: 1
     - _BurnInsideContrast: 2
     - _BurnInsideNoiseFactor: 0.2
-    - _BurnRadius: 5
+    - _BurnRadius: 11.61
     - _BurnSwirlFactor: 1
     - _BurnWidth: 0.1
     - _CamouflageAnimationToggle: 0
@@ -301,7 +301,7 @@ Material:
     - _GaussianBlurFade: 1
     - _GaussianBlurOffset: 0.5
     - _GlitchBrightness: 4
-    - _GlitchFade: 1
+    - _GlitchFade: 0
     - _GlitchHueSpeed: 1
     - _GlitchMaskMin: 0.4
     - _GlossMapScale: 1
@@ -487,7 +487,7 @@ Material:
     - _ToggleTimeFrequency: 0
     - _ToggleTimeSpeed: 0
     - _ToggleUnscaledTime: 0
-    - _UVDistortFade: 0
+    - _UVDistortFade: 1
     - _UVDistortMaskToggle: 0
     - _UVRotateSpeed: 1
     - _UVSec: 0

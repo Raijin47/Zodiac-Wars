@@ -41,8 +41,7 @@ public class Game : MonoBehaviour
     private void Start()
     {
         _walletType.Init();
-        //_audioType.Init();
-        //_audio.Init();
+        _audioType.Init();
     }
 
     public T Get<T>() where T : Component

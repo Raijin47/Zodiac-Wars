@@ -398,7 +398,7 @@ Material:
     - _ShiftingSaturation: 0.8
     - _ShiftingSpeed: 0.5
     - _ShineContrast: 2
-    - _ShineFade: 0
+    - _ShineFade: 1
     - _ShineFrequency: 0.3
     - _ShineMaskToggle: 0
     - _ShineRotation: 45

@@ -17,6 +17,8 @@ public class PuzzleController : MonoBehaviour
     [SerializeField] private ScrollRect _scrollRect;
     [SerializeField] private Image _image;
 
+    private int _count;
+
     private readonly List<GameObject> PuzzleList = new();
     private readonly Vector2 Pivot = new(0.5f, 0.5f);
 
@@ -37,6 +39,7 @@ public class PuzzleController : MonoBehaviour
 
         Vector2 size = new(hw, hw);
 
+        _count = stage.Count * stage.Count;
         _grid.cellSize = size;
         _shadow.sizeDelta = size * 1.1f;
 
@@ -63,6 +66,17 @@ public class PuzzleController : MonoBehaviour
             
         Shuffle();
         Game.Action.SendStartGame();
+    }
+
+    public void Restart()
+    {
+        for(int i = 0; i < _count; i++)
+        {
+            _puzzleElements[i].IsComplated = false;
+            _puzzleElements[i].transform.SetParent(_contentScroll);
+        }
+
+        Shuffle();
     }
 
     private void Shuffle()

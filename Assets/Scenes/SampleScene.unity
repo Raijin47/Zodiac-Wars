@@ -2875,22 +2875,10 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+      - m_Target: {fileID: 976655164}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Play
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1980602416}
-        m_TargetAssemblyTypeName: Game, Assembly-CSharp
-        m_MethodName: SetActive
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2899,10 +2887,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 976655164}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1220647281}
+        m_TargetAssemblyTypeName: PuzzleController, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11794,6 +11782,7 @@ GameObject:
   - component: {fileID: 793961880}
   - component: {fileID: 793961879}
   - component: {fileID: 793961878}
+  - component: {fileID: 793961881}
   m_Layer: 5
   m_Name: Button Music
   m_TagString: Untagged
@@ -11874,6 +11863,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793961876}
   m_CullTransparentMesh: 1
+--- !u!114 &793961881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793961876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b216e024062587a449d15c9762247da2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &794833622
 GameObject:
   m_ObjectHideFlags: 0
@@ -21651,6 +21652,7 @@ GameObject:
   - component: {fileID: 1521944382}
   - component: {fileID: 1521944381}
   - component: {fileID: 1521944383}
+  - component: {fileID: 1521944384}
   m_Layer: 5
   m_Name: Button Music
   m_TagString: Untagged
@@ -21731,6 +21733,18 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1521944384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521944379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b216e024062587a449d15c9762247da2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1524717709
 GameObject:
   m_ObjectHideFlags: 0
@@ -26232,11 +26246,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -1005587200451784734, guid: ea853cdf0a0ac90438f4ee0f95c0dc81, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9c3d5c660b742e744a270015a897e4ee, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -26478,6 +26492,7 @@ GameObject:
   - component: {fileID: 1868456185}
   - component: {fileID: 1868456184}
   - component: {fileID: 1868456183}
+  - component: {fileID: 1868456186}
   m_Layer: 5
   m_Name: Button Sound
   m_TagString: Untagged
@@ -26558,6 +26573,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868456181}
   m_CullTransparentMesh: 1
+--- !u!114 &1868456186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868456181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19155ae942b04b14ea09a4f5d906d89a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1876294341
 GameObject:
   m_ObjectHideFlags: 0
@@ -28042,6 +28069,7 @@ GameObject:
   - component: {fileID: 1958455505}
   - component: {fileID: 1958455504}
   - component: {fileID: 1958455506}
+  - component: {fileID: 1958455507}
   m_Layer: 5
   m_Name: Button Sound
   m_TagString: Untagged
@@ -28122,6 +28150,18 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1958455507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958455502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19155ae942b04b14ea09a4f5d906d89a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1961310853
 GameObject:
   m_ObjectHideFlags: 0
@@ -28342,18 +28382,24 @@ MonoBehaviour:
   _walletType:
     rid: 7551940013152272384
   _audioType:
-    rid: -2
+    rid: 7551940075363762185
   _components: []
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 7551940013152272384
       type: {class: Wallet, ns: , asm: Assembly-CSharp}
       data:
         _money: 0
         _starting: 100
+    - rid: 7551940075363762185
+      type: {class: AudioSpriteSwap, ns: , asm: Assembly-CSharp}
+      data:
+        _mixer: {fileID: 24300002, guid: ea853cdf0a0ac90438f4ee0f95c0dc81, type: 2}
+        _soundOnSprite: {fileID: 21300000, guid: 35cfbd1eb57ee064585a7b7e83f0ebce, type: 3}
+        _soundOffSprite: {fileID: 21300000, guid: 5b00ad1a3fbd7c94d8f16acf8c502ede, type: 3}
+        _musicOnSprite: {fileID: 21300000, guid: 60943239a399efa46b5e9a4690ab6492, type: 3}
+        _musicOffSprite: {fileID: 21300000, guid: 6c42c07c50ba656499fb5943bc458001, type: 3}
 --- !u!1 &1985595678
 GameObject:
   m_ObjectHideFlags: 0

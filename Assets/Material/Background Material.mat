@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Space Material
+  m_Name: Background Material
   m_Shader: {fileID: 4800000, guid: bb134d7d4389e3a45a6c49e898a344a4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -487,7 +487,7 @@ Material:
     - _ToggleTimeFrequency: 0
     - _ToggleTimeSpeed: 0
     - _ToggleUnscaledTime: 0
-    - _UVDistortFade: 1
+    - _UVDistortFade: 0
     - _UVDistortMaskToggle: 0
     - _UVRotateSpeed: 1
     - _UVSec: 0
@@ -648,10 +648,10 @@ Material:
     - _TextureLayer2Offset: {r: 0, g: 0, b: 0, a: 0}
     - _TextureLayer2Scale: {r: 1, g: 1, b: 0, a: 0}
     - _TextureLayer2ScrollSpeed: {r: 0, g: 1, b: 0, a: 0}
-    - _UVDistortFrom: {r: -0.01, g: -0.01, b: 0, a: 0}
+    - _UVDistortFrom: {r: -0.04, g: -0.04, b: 0, a: 0}
     - _UVDistortNoiseScale: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _UVDistortSpeed: {r: 1, g: 1, b: 0, a: 0}
-    - _UVDistortTo: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _UVDistortTo: {r: 0.04, g: 0.04, b: 0, a: 0}
     - _UVRotatePivot: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _UVScalePivot: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _UVScaleScale: {r: 1, g: 1, b: 0, a: 0}

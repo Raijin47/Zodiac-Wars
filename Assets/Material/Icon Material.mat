@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Map Material
+  m_Name: Icon Material
   m_Shader: {fileID: 4800000, guid: bb134d7d4389e3a45a6c49e898a344a4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ENABLEUVROTATE_ON
+  - _ENABLESHINE_ON
   - _SHADERFADING_NONE
   - _SHADERSPACE_UV
   - _TEXTURELAYER1SHEETTOGGLE_ON
@@ -164,7 +164,7 @@ Material:
     - _BurnFade: 1
     - _BurnInsideContrast: 2
     - _BurnInsideNoiseFactor: 0.2
-    - _BurnRadius: 5
+    - _BurnRadius: 11.61
     - _BurnSwirlFactor: 1
     - _BurnWidth: 0.1
     - _CamouflageAnimationToggle: 0
@@ -247,7 +247,7 @@ Material:
     - _EnableSharpen: 0
     - _EnableShiftHue: 0
     - _EnableShifting: 0
-    - _EnableShine: 0
+    - _EnableShine: 1
     - _EnableSineGlow: 0
     - _EnableSineMove: 0
     - _EnableSineRotate: 0
@@ -263,7 +263,7 @@ Material:
     - _EnableTextureLayer1: 0
     - _EnableTextureLayer2: 0
     - _EnableUVDistort: 0
-    - _EnableUVRotate: 1
+    - _EnableUVRotate: 0
     - _EnableUVScale: 0
     - _EnableUVScroll: 0
     - _EnableVibrate: 0
@@ -288,7 +288,7 @@ Material:
     - _FlameRadius: 0.2
     - _FlameSmooth: 2
     - _FrozenContrast: 2
-    - _FrozenFade: 0.44
+    - _FrozenFade: 1
     - _FrozenHighlightContrast: 2
     - _FrozenHighlightDensity: 1
     - _FrozenSnowContrast: 1
@@ -301,7 +301,7 @@ Material:
     - _GaussianBlurFade: 1
     - _GaussianBlurOffset: 0.5
     - _GlitchBrightness: 4
-    - _GlitchFade: 1
+    - _GlitchFade: 0
     - _GlitchHueSpeed: 1
     - _GlitchMaskMin: 0.4
     - _GlossMapScale: 1
@@ -316,7 +316,7 @@ Material:
     - _HologramDistortionOffset: 0.5
     - _HologramDistortionScale: 10
     - _HologramDistortionSpeed: 2
-    - _HologramFade: 0.17
+    - _HologramFade: 1
     - _HologramLineFrequency: 500
     - _HologramLineGap: 3
     - _HologramLineSpeed: 0.01
@@ -397,15 +397,15 @@ Material:
     - _ShiftingRainbowToggle: 0
     - _ShiftingSaturation: 0.8
     - _ShiftingSpeed: 0.5
-    - _ShineContrast: 2
-    - _ShineFade: 1
+    - _ShineContrast: 5
+    - _ShineFade: 0
     - _ShineFrequency: 0.3
     - _ShineMaskToggle: 0
-    - _ShineRotation: 30
+    - _ShineRotation: 45
     - _ShineSaturation: 0.5
     - _ShineSmooth: 1
     - _ShineSpeed: 5
-    - _ShineWidth: 0.01
+    - _ShineWidth: 0.1
     - _SineGlowContrast: 1
     - _SineGlowFade: 1
     - _SineGlowFrequency: 4
@@ -413,7 +413,7 @@ Material:
     - _SineGlowMax: 1
     - _SineGlowMin: 0
     - _SineMoveFade: 1
-    - _SineRotateAngle: 360
+    - _SineRotateAngle: 15
     - _SineRotateFade: 1
     - _SineRotateFrequency: 1
     - _SineScaleFrequency: 2
@@ -487,9 +487,9 @@ Material:
     - _ToggleTimeFrequency: 0
     - _ToggleTimeSpeed: 0
     - _ToggleUnscaledTime: 0
-    - _UVDistortFade: 1
+    - _UVDistortFade: 0
     - _UVDistortMaskToggle: 0
-    - _UVRotateSpeed: 0.01
+    - _UVRotateSpeed: 1
     - _UVSec: 0
     - _UseUIAlphaClip: 0
     - _VertexTintFirst: 0

@@ -26,7 +26,7 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         set 
         {
             _image.sprite = value;
-            //_image.SetNativeSize();
+            _image.SetNativeSize();
         }
     }
 
@@ -36,15 +36,15 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     {
         if (IsComplated) return;
         transform.position = Input.mousePosition;
+        Game.Puzzle.Shadow.position = Input.mousePosition;
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
         if (IsComplated) return;
 
-        Game.Puzzle.Shadow.transform.SetParent(transform);
+        Game.Puzzle.Shadow.transform.position = transform.position;
         Game.Puzzle.Shadow.gameObject.SetActive(true);
-        Game.Puzzle.Shadow.anchoredPosition = Vector2.zero;
 
         transform.localScale = Vector3.one * 1.1f;
 

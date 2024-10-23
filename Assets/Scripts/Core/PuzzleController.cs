@@ -5,50 +5,57 @@ using UnityEngine.UI;
 public class PuzzleController : MonoBehaviour
 {
     [SerializeField] private PuzzleElement[] _puzzleElements;
-    [SerializeField] private RectTransform[] _targets;
+
+    [Space(10)]
     [SerializeField] private Transform _contentScroll;
     [SerializeField] private Transform _content;
+    [SerializeField] private Transform _contentComplated;
 
-    [SerializeField] private ScrollRect _scrollRect;
-    private readonly List<GameObject> PuzzleList = new();
-
+    [Space(10)]
     [SerializeField] private RectTransform _shadow;
-    public RectTransform Shadow => _shadow;
-
+    [SerializeField] private ScrollRect _scrollRect;
     [SerializeField] private Image _image;
-    private Sprite _sprite;
 
-    public Sprite Sprite 
-    { 
-        private get => _sprite;
-        set 
-        {
-            _image.sprite = value;
-            _sprite = value;
-            Game.Action.SendStartGame();
-        } 
-    }
+    private readonly List<GameObject> PuzzleList = new();
+    private readonly Vector2 Pivot = new(0.5f, 0.5f);
 
+    public RectTransform Shadow => _shadow;
     public Transform Content => _content;
+    public Transform ContentComplated => _contentComplated;
 
     private void Start() 
     {
-        Game.Action.OnStartGame.AddListener(StartGame);
-
         for (int i = 0; i < _puzzleElements.Length; i++)
             PuzzleList.Add(_puzzleElements[i].gameObject);        
     } 
 
-    private void StartGame()
+    public void SetSetting(ButtonStage stage)
     {
-        for(int i = 0; i < _puzzleElements.Length; i++)
+        int hw = 1024 / stage.Count;
+        int a = 0;
+
+        _image.sprite = Sprite.Create(stage.Texture, new Rect(0, 0, 1024, 1024), Pivot);
+
+        for (int i = stage.Count - 1; i >= 0; i--)
         {
-            _puzzleElements[i].Sprite = Sprite;
-            _puzzleElements[i].transform.SetParent(_contentScroll);
-            _puzzleElements[i].IsComplated = false;
+            for (int j = 0; j < stage.Count; j++)
+            {
+                Rect rect = new(j * hw, i * hw, hw, hw);
+                _puzzleElements[a].Sprite = Sprite.Create(stage.Texture, rect, Pivot);
+                //_puzzleElements[a].gameObject.SetActive(true);
+                _puzzleElements[a].transform.SetParent(_contentScroll);
+                _puzzleElements[a].IsComplated = false;
+                a++;
+            }
         }
 
+        //for (; a < _puzzleElements.Length; a++)
+        //{
+        //    _puzzleElements[a].gameObject.SetActive(false);
+        //}
+
         Shuffle();
+        Game.Action.SendStartGame();
     }
 
     private void Shuffle()

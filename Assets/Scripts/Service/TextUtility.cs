@@ -2,8 +2,6 @@ using System;
 
 public static class TextUtility
 {
-
-
     public static string FormatTime(int seconds)
     {
         TimeSpan time = TimeSpan.FromSeconds(seconds);
@@ -14,5 +12,4 @@ public static class TextUtility
         TimeSpan time = TimeSpan.FromSeconds(seconds);
         return time.ToString(@"hh\:mm\:ss");
     }
-
 }

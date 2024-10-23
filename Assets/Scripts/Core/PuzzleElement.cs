@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
-    [SerializeField] private Image _puzzleImg;
+    [SerializeField] private Image _image;
     [SerializeField] private RectTransform _main;
     [SerializeField] private RectTransform _target;
 
@@ -17,16 +17,20 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         set
         {
             _isComplated = value;
-            _puzzleImg.materialForRendering.SetFloat("_UVDistortFade", value ? 1 : 0);
+            _image.materialForRendering.SetFloat("_UVDistortFade", value ? 1 : 0);
         }
     }
 
-    public Sprite Sprite { set => _puzzleImg.sprite = value; }
-
-    void Start()
-    {
-        _puzzleImg.material = Instantiate(_puzzleImg.material);
+    public Sprite Sprite 
+    { 
+        set 
+        {
+            _image.sprite = value;
+            //_image.SetNativeSize();
+        }
     }
+
+    void Start() => _image.material = Instantiate(_image.material);
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -41,7 +45,6 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         Game.Puzzle.Shadow.transform.SetParent(transform);
         Game.Puzzle.Shadow.gameObject.SetActive(true);
         Game.Puzzle.Shadow.anchoredPosition = Vector2.zero;
-        Game.Puzzle.Shadow.SetAsFirstSibling();
 
         transform.localScale = Vector3.one * 1.1f;
 
@@ -52,6 +55,7 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     public void OnPointerUp(PointerEventData eventData)
     {
         if (IsComplated) return;
+        Game.Audio.PlayClip(0);
         Game.Puzzle.Shadow.gameObject.SetActive(false);
         transform.localScale = Vector3.one;
 
@@ -59,8 +63,9 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
             Mathf.Abs(_main.transform.position.y - _target.transform.position.y) <= _offset)
         {
             _main.anchoredPosition = _target.anchoredPosition;
+            transform.SetParent(Game.Puzzle.ContentComplated);
             IsComplated = true;
-            transform.SetAsFirstSibling();
+
             if (Game.Puzzle.CheckComplated())           
                 Game.Action.SendWin();           
         }

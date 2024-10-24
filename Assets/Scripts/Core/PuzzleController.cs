@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,7 @@ public class PuzzleController : MonoBehaviour
 {
     [SerializeField] private PuzzleElement[] _puzzleElements;
     [SerializeField] private GridLayoutGroup _grid;
+    [SerializeField] private TextMeshProUGUI _textReward;
 
     [Space(10)]
     [SerializeField] private Transform _contentScroll;
@@ -29,8 +31,24 @@ public class PuzzleController : MonoBehaviour
     private void Start() 
     {
         for (int i = 0; i < _puzzleElements.Length; i++)
-            PuzzleList.Add(_puzzleElements[i].gameObject);        
+            PuzzleList.Add(_puzzleElements[i].gameObject);
+
+        Game.Action.OnWin.AddListener(Win);
     } 
+
+    private void Win()
+    {
+        int value = _count switch
+        {
+            25 => 10,
+            36 => 20,
+            49 => 30,
+            _ => 0,
+        };
+
+        Game.Wallet.Add(value);
+        _textReward.text = $"+{value}";
+    }
 
     public void SetSetting(ButtonStage stage)
     {

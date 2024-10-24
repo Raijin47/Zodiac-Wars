@@ -24,6 +24,7 @@ public class PanelBuyStage : MonoBehaviour
         {
             Stage.IsPurchased = true;
             _panelBuy.SetActive(false);
+            Game.Audio.PlayClip(1);
         }
     }
 }

@@ -66,8 +66,11 @@ public class PuzzleElement : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
             transform.SetParent(Game.Puzzle.ContentComplated);
             IsComplated = true;
 
-            if (Game.Puzzle.CheckComplated())           
-                Game.Action.SendWin();           
+            if (Game.Puzzle.CheckComplated())
+            {
+                Game.Action.SendWin();
+                Game.Audio.PlayClip(3);
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class RouletteSpin : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class RouletteSpin : MonoBehaviour
 
     private void StartSpin()
     {
-        _spinButton.Interactable = false;
+        _spinButton.gameObject.SetActive(false);
 
         Game.Audio.PlayClip(2);
 
@@ -51,14 +52,16 @@ public class RouletteSpin : MonoBehaviour
         }
 
         Result();
-
-        _spinButton.Interactable = true;
     }
 
+    public UnityEvent onResult;
+    public TMPro.TextMeshProUGUI _textReward;
     private void Result()
     {        
-        int whatWeWin = Mathf.RoundToInt(_transform.eulerAngles.z / 360 / _rewards.Length);
+        int whatWeWin = Mathf.RoundToInt(_transform.eulerAngles.z / (360 / _rewards.Length));
         if (whatWeWin == _rewards.Length) whatWeWin = 0;
         Game.Wallet.Add(_rewards[whatWeWin]);
+        _textReward.text = $"+{_rewards[whatWeWin]}";
+        onResult?.Invoke();
     }
 }
